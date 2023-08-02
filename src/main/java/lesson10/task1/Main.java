@@ -1,0 +1,24 @@
+package lesson10.task1;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int x = 5;
+        int y = 10;
+        int z = 5;
+
+        // Переменная для хранения результата сравнения
+        boolean result = x == y;
+
+        System.out.println("Сравнение х и у - " + result);
+
+        result = x == z;
+
+        System.out.println("Сравнение х и z - " + result);
+
+        result = x != y;
+
+        System.out.println("Х не равно Y - " + result);
+    }
+}
