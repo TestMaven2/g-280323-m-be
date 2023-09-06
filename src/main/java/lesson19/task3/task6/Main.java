@@ -1,4 +1,4 @@
-package lesson19.task6;
+package lesson19.task3.task6;
 
 import java.util.ArrayList;
 import java.util.List;
