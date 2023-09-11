@@ -50,5 +50,12 @@ public class Main {
 
     public static void deleteDir(File file) {
 
+        File[] files = file.listFiles();
+        if (files != null) {
+            for (File current : files) {
+                deleteDir(current);
+            }
+        }
+        file.delete();
     }
 }
