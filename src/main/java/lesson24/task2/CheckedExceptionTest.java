@@ -9,8 +9,7 @@ public class CheckedExceptionTest {
 
     public static void main(String[] args) {
 
-        try {
-            InputStream in = new FileInputStream("test.txt");
+        try (InputStream in = new FileInputStream("test.txt")) {
 
             char symbol = (char) in.read();
 
