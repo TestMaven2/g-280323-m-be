@@ -1,4 +1,4 @@
-package lesson24.lesson28.task2;
+package lesson28.task2;
 
 public class ThreadSleepTest {
 

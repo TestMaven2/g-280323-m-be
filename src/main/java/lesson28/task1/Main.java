@@ -1,4 +1,4 @@
-package lesson24.lesson28.task1;
+package lesson28.task1;
 
 public class Main {
 
