@@ -21,7 +21,7 @@ public class Main {
     public static void main(String[] args) {
 
         Crossbow crossbow = new Crossbow();
-        new Thread(crossbow::fire).start();
+        new Thread(() -> crossbow.fire()).start();
 
         while (true) {
             if (!crossbow.isFire()) {
